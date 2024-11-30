@@ -15,7 +15,7 @@ mongoose
   .connect(dbURI)
   .then((result) => {
     // listen for requests
-    app.listen(3000);
+    app.listen(8000);
   })
   .catch((err) => {
     console.log(err);
